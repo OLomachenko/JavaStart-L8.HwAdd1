@@ -8,7 +8,7 @@ public class HwAdd1TextFromFile {
 
 	public static void main(String[] args) {
 
-		File importedtext = new File("HomeworkAdd1.txt");
+		File importedtext = new File("TextToRead.txt");
 		String text = getStringFromFile(importedtext).toLowerCase();
 		int[] counts = letterCount(text);
 		System.out.println(text);
